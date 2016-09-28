@@ -9,10 +9,6 @@
   background: yellow;
 }
 
-#container-fluid p {
-  padding-left: 440px;
-}
-
 #header {
   background: blue;
   height: 160px;
@@ -42,4 +38,29 @@
   background: #000;
   color: #fff;
   height: 60px;
+}
+
+.col-md-2 {
+  background-color: black;
+  color: red;
+}
+
+#push-div {
+  background: blue;
+  border: 1px solid #fff;
+  display: none;
+}
+
+#pull-div {
+  background: orange;
+  border: 1px solid #fff;
+  display: none;
+}
+
+.threecolumns {
+  background: blue;
+  color: white;
+  border: 1px solid #fff;
+  height: 50px;
+  display: none;
 }
