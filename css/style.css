@@ -43,3 +43,55 @@
   color: #fff;
   height: 60px;
 }
+
+@media screen and (max-width: 768px) {
+  #header {
+    background: green;
+  }
+
+  #nav {
+    background: red;
+  }
+
+  #content {
+    background: turquoise;
+  }
+
+  #aside {
+    background: gold;
+  }
+
+  #promo1, #promo2, #promo3, #promo4 {
+    background: #000;
+  }
+
+  #footer {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #header {
+    background: red;
+  }
+
+  #nav {
+    background: turquoise;
+  }
+
+  #content {
+    background: gold;
+  }
+
+  #aside {
+    background: #000;
+  }
+
+  #promo1, #promo2, #promo3, #promo4 {
+    background: blue;
+  }
+
+  #footer {
+    background: green;
+  }
+}
